@@ -1,0 +1,111 @@
+
+
+.detail{
+    background-color: rgba(0,0,0,0.7);
+    height: 800px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    display: none;
+}
+
+.detail__modal{
+    background-color: black;
+    height: 700px;
+    width: 600px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.detail__modal--button i {
+    margin-right:5px;
+}
+/* img 위에 있는것들 */
+.delete{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    font-size:30px; 
+}
+
+.detail__modal--button{
+    position: absolute;
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 7px;
+    bottom:320px;
+    left:20px;
+}
+
+
+.detail__modal--heart {
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    bottom:320px;
+    left:150px;
+}
+
+.detail img{
+    height: 400px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* 정보성 글 스타일 */
+
+.detail__info__header{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.detail__info--title{
+    margin: 30px 30px;   
+}
+
+
+
+.detail__modal--recommend{
+    margin-left:30px;
+    font-size: 20px;
+}
+
+.detail__modal--desc{
+    margin:30px;
+    color: white;
+    line-height: 1.8;
+    height: 150px;
+    overflow: scroll;
+    
+}
+
+.detail__modal--button:hover, .detail__modal--heart:hover, .delete:hover{
+    cursor: pointer;
+}
+
+
+.visible{
+    display: flex;
+}
+
+.detail__modal--button{
+    border: none;
+}
+.detail__modal--heart{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    font-size: 30px;
+
+}
+
+.detail__modal--heart:hover{
+    transition: 0.7s ease;
+    scale: 1.1;
+}

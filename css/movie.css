@@ -1,0 +1,55 @@
+.movie{
+   margin-top:100px; 
+}
+
+
+.autoplay{
+    display: flex;
+    padding: 0 40px;
+}
+
+.movie__poster img{
+    display: inline-block;
+    width:265px;
+    height: 375px;
+    margin: 30px;
+}
+
+
+.movie__poster img:hover{
+    scale: 0.9;
+    transition: 1s all;
+}
+
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+.slick-prev{
+    left: 0;
+    height: 30px;
+    font-size: 40px;
+    border: none;
+    background-color: inherit;
+    color: white;
+}
+
+.slick-next{
+    right: 0;
+    height: 30px;
+    font-size: 40px;
+    border: none;
+    background-color: inherit;
+    color: white;
+}
+
+
+.movie__title{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    
+}

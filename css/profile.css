@@ -1,0 +1,41 @@
+.profile-img__box{
+    position: fixed;
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1000;   
+}
+.profile-img__box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin:10px;
+}
+.profile-img__box img:hover{
+    scale: 1.1;
+    transition: 0.5s ease-in;
+}
+
+.profile-img__title{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.img-profile__img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+#profile-change{
+    margin:0px
+}
+
+

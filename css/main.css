@@ -1,0 +1,70 @@
+.main{
+   
+}
+
+
+.main__main-img{
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+}
+
+
+.main__box{
+    /* body기준으로 absolute를 줌 */
+    position: absolute;
+    top:400px;
+    left: 500px;
+}
+
+.main__info{
+    color: white;
+    width: 400px;
+}
+
+.main__info--title{
+    font-size: 70px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    
+}
+
+.main__info--desc{
+    font-size:20px;
+    margin-bottom: 30px;
+}
+
+.main__buttons button{
+    height: 60px;
+    
+    border-radius: 10px;
+    border:none;
+    font-size: 23px;
+}
+
+.main__buttons--play{
+    background-color: white;
+    width: 140px;
+    color: black;
+    margin-right: 10px;
+    
+}
+.main__buttons--info{
+    background-color: rgba(0, 0,0,0.6);
+    color: white;
+}
+.main__buttons i{
+    margin-right: 5px;
+}
+.main__buttons--info{
+    width: 160px;
+}
+
+.main__buttons--play:hover, .main__buttons--info:hover{
+    cursor: pointer;
+}
+
+.movie__img{
+    height: 400px;
+    width: 600px;
+}

@@ -1,0 +1,54 @@
+.footer{
+    margin-top:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.sns{
+    background-color: rgba(0,0,0,0.9);
+    height: 55px;
+    width: 50px;
+    display: flex;
+    padding-right: 30px;
+    margin: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#tistory{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+.sns img:hover{
+    cursor: pointer;
+    scale: 0.9;
+    transition: 1s all;
+}
+.sns div{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sns img{
+    margin: 10px;
+
+}
+
+.footer__text{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size:15px;
+}
+.footer__text span{
+    margin-top:10px;
+}

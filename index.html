@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="css/detail.css">
+    <title>MODE</title>
+    <script
+  src="https://code.jquery.com/jquery-3.7.0.js"
+  integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+       <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+      <!--about 모달창입니다. -->
+    <!-- 비디오 박스  -->
+    </section>
+    <section class="video">
+
+    </section>
+    <section class="detail">
+    </section>
+    
+<!-- 로그인 창이 나오는 모달창입니다. -->
+    <section class="login">
+        <video class="login__video" muted autoplay loop src="https://cdn.pixabay.com/vimeo/544315321/72767.mp4?width=1280&hash=215189a6d41b1faee37c95108aba7ac721b66922"></video>
+        <form class="login__form">
+            
+            <h1 class="login__form__title">Sign In</h1>
+            <input class="login__form__input" type="text" placeholder="your name">
+            <br>
+            <div class="alert"></div>
+            <br>
+            <button class="login__form__button">Sign In</button>
+        </form>
+    </section>
+    <!-- 프로필 선택하는 모달창입니다. -->
+    <section class="profile-img__box hidden">
+        <h1 class="profile-img__title">기분을 선택해주세요😆</h1>
+        <div>
+        <img id="anger" src="asset/profile_/anger.png" alt="">
+        <img id="disgust" src="asset/profile_/disgust.png" alt="">
+        <img id="joy" src="asset/profile_/joy.png" alt="">
+        <img id="sadness" src="asset/profile_/sadness.png" alt="">
+        </div>
+    </section>
+    <!--about 모달창-->
+    
+        <!-- 상세 정보창 -->
+    <header class="header">
+        <section class="header__visible">
+            <div class="header__flex">
+                <h1 class="header__title">MooD</h1>
+                <nav class="header__nav">
+                    <ul class="header__nav__list">
+                        <li class="header__nav__list--hastag">Home</li>
+                        <li id="profile-change">Emotion</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__profile">
+                 <i class="fa-solid fa-hashtag header__search"></i>
+                <img class="img-profile__img" src="asset/lala.gif" alt="">   
+            </div>
+            <ul class="header__profile__dropdown hidden">
+                <div class="semo"></div>
+                <li>Welcome</li>
+                <li id="username">username</li>
+                
+                <li id="logout">로그아웃</li>
+            </ul>
+        </section>
+        <nav class="header__hashtag hidden">
+            <ul id="hashBox">
+                <li id="hashtag1">#기분을</li>
+                <li id="hashtag2">#선택</li>
+                <li id="hashtag3">#해주세요😆</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <img src="asset/main.gif" class="main__main-img" alt="">
+        <div class="main__box">
+            <section class="main__info">
+                <h1 class="main__info--title">INSIDE<br>OUT</h1>
+                <p class="main__info--desc">슬픔 뒤에 기쁨이 온다는 것. 슬픔 뒤에 기쁨이 있고, 슬픔이 있어야 기쁨을 느낄 수 있는 거라 생각해요.</p>
+            </section>
+            <section class="main__buttons">
+                <button class="main__buttons--play">
+                    <i class="fa-solid fa-play"></i>
+                    재생
+                </button>
+                <button class="main__buttons--info">
+                    <i class="fa-solid fa-circle-info"></i>
+                    상세 정보
+                </button>
+            </section>
+        </div>
+    </main>
+    <section class="movie">
+        <h1 class="movie__title"></h1>
+        <div class="autoplay">
+    
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="sns">        
+            <img id="Twitter" src="asset/icon/icon-twitter.png" >
+            <img id="Instagram" src="asset/icon/icon-Instagram.png" >   
+            <img id="Kakao" src="asset/icon/icon-kakao.png" > 
+            <img id="tistory" src="asset/icon/icon-tistory.png" >          
+        </div>
+        <div class="footer__text">
+            <span> 팀명 : 무디무디</span>
+             <span> 프론트엔드 : 이치연 | 백엔드 : 서영현 정지웅 정혜빈 송민재</span>
+             <span>주소 : 광주광역시 동구 제봉로 92 광주대성학원 1-3층</span>
+        </div>
+    </footer>
+
+<!-- js가 안되면 js 위치를 바뀐다. -->
+
+    <script src="js/profile.js"></script>
+    <script src="js/detail.js"></script>
+    <script src="js/movie.js"></script>
+    <script src="js/video.js"></script>
+
+    <script src="js/btnsns.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/about.js"></script>
+    
+    
+    <script src="js/login.js"></script>
+    <script src="js/header.js"></script>
+    <script src="slide.js"></script>
+    <script src="https://kit.fontawesome.com/15235ae2d2.js" crossorigin="anonymous"></script>
+</body>
+</html>
